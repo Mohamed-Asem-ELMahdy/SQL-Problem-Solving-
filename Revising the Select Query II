@@ -1,9 +1,0 @@
-/*
-link:https:https://www.hackerrank.com/challenges/revising-the-select-query-2/problem
-Author:Mohamed Asem
-*/
-SELECT NAME
-FROM CITY
-WHERE COUNTRYCODE = 'USA'
-      AND
-      POPULATION > 120000;
