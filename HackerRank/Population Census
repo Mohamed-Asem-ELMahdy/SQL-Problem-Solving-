@@ -1,0 +1,3 @@
+select sum(c.POPULATION)
+from CITY c inner join COUNTRY co
+on c.COUNTRYCODE = co.CODE and co.CONTINENT='Asia'
