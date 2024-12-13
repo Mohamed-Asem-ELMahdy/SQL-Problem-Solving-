@@ -1,0 +1,1 @@
+Select FLOOR(avg(POPULATION)) from CITY 
