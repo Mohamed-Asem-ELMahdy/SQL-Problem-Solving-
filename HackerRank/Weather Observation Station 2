@@ -1,0 +1,2 @@
+select convert(decimal(10,2),sum(LAT_N)),convert(decimal(10,2),sum(LONG_W))
+from STATION
