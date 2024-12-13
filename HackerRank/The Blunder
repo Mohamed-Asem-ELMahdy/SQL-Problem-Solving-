@@ -1,0 +1,7 @@
+SELECT
+        CEILING
+        (
+        AVG(Salary) - AVG(CONVERT(INT, REPLACE(CONVERT(VARCHAR(6), Salary), '0', ''))) + 1
+        )
+FROM
+        EMPLOYEES;
